@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/Usuario/OneDrive/Projects/clon-spotify",
     "paths": {
       "@/*": [
         "src/*"
@@ -12,15 +12,17 @@
       "@/icons": [
         "src/icons/*"
       ],
-      "@/lib":[
+      "@/lib": [
         "src/lib/*"
       ],
-      "@/layouts":[
+      "@/layouts": [
         "src/layouts/*"
       ],
-      "@/pages":[
+      "@/pages": [
         "src/pages/*"
       ]
-    }
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
